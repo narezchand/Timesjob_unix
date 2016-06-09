@@ -6,8 +6,11 @@
 <property name="sonar.projectName" value="Timesjob" />
 <property name="sonar.projectVersion" value="1.0" />
 <property name="sonar.sources" value="src/com/vaannila/domain" />
-<property name="sonar.login" value="sonar" />
-<property name="sonar.password" value="sonar" />
+<property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar" />
+<property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+<property name="sonar.jdbc.username" value="sonar" />
+<property name="sonar.jdbc.password" value="sonar" />
+
 <property name="sonar.sourceEncoding" value="UTF-8" />
 <property name="sonar.basedir" value="/var/lib/jenkins/workspace/1" />
 
