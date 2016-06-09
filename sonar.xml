@@ -15,7 +15,7 @@
 <property name="sonar.basedir" value="/var/lib/jenkins/workspace/1" />
 
 <property name="sonar.java.binaries" value="build/classes/com/vaannila/domain" />
-<property name="sonar.java.libraries" value="lib/*.jar" />
+<property name="sonar.java.libraries" value="/usr/local/sonar/lib/*.jar" />
 
 
 </project>
