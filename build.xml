@@ -1,7 +1,7 @@
 <project name="TimesJob" default="sonar" xmlns:sonar="antlib:org.sonar.ant">
-<import file="C:\Program Files (x86)\Jenkins\workspace\Timesjob\sonar.xml" />
+<import file="/home/shifamariam12/Timesjob/sonar.xml" />
 	<path id="libpath">
-		<fileset dir="C:\apache-tomcat-7.0.37\lib">
+		<fileset dir="/usr/share/tomcat7/lib">
 		<include name="**/*.jar"/>
 		</fileset>
 	</path>
@@ -37,7 +37,7 @@
 	<target name="sonar" depends="war">
     <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
         <!-- Update the following line, or put the "sonarqube-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
-        <classpath path="C:\Tools\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\sonarqube-ant-task-*.jar" />
+        <classpath path="/usr/share/ant/lib/sonar-ant-task-2.2.jar" />
     </taskdef>
  
     <!-- Execute the SonarQube analysis -->
