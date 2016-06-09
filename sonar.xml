@@ -1,15 +1,15 @@
 <project name="sonar" basedir=".." >
-<property name="sonar.host.url" value="http://172.32.113.102:9000" />
+<property name="sonar.host.url" value="http://104.154.21.56:9000/" />
  
 <!-- Define the SonarQube project properties -->
 <property name="sonar.projectKey" value="org.codehaus.sonar:Timesjob" />
 <property name="sonar.projectName" value="Timesjob" />
 <property name="sonar.projectVersion" value="1.0" />
 <property name="sonar.sources" value="src/com/vaannila/domain" />
-<property name="sonar.login" value="Sonar" />
-<property name="sonar.password" value="SONAR_123" />
+<property name="sonar.login" value="sonar" />
+<property name="sonar.password" value="sonar" />
 <property name="sonar.sourceEncoding" value="UTF-8" />
-<property name="sonar.basedir" value="C:/Program Files (x86)/Jenkins/workspace/Timesjob" />
+<property name="sonar.basedir" value="/var/lib/jenkins/workspace/1" />
 
 <property name="sonar.java.binaries" value="build/classes/com/vaannila/domain" />
 <property name="sonar.java.libraries" value="lib/*.jar" />
