@@ -1,21 +1,19 @@
-<project name="sonar" basedir=".." >
-<property name="sonar.host.url" value="http://104.154.21.56:9000/" />
+<project name="sonar" basedir="..">
+<property name="sonar.host.url" value="http://104.199.157.228:9000/" />
  
 <!-- Define the SonarQube project properties -->
 <property name="sonar.projectKey" value="org.codehaus.sonar:Timesjob" />
 <property name="sonar.projectName" value="Timesjob" />
 <property name="sonar.projectVersion" value="1.0" />
 <property name="sonar.sources" value="src/com/vaannila/domain" />
-<property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar" />
-<property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
-<property name="sonar.jdbc.username" value="sonar" />
-<property name="sonar.jdbc.password" value="sonar" />
+<property name="sonar.login" value="Sonar" />
+<property name="sonar.password" value="SONAR_123" />
 
 <property name="sonar.sourceEncoding" value="UTF-8" />
-<property name="sonar.basedir" value="/var/lib/jenkins/workspace/1" />
+<property name="sonar.basedir" value="/var/lib/jenkins/workspace/Timesjob" />
 
 <property name="sonar.java.binaries" value="build/classes/com/vaannila/domain" />
-<property name="sonar.java.libraries" value="/usr/local/sonar/lib/*.jar" />
+<property name="sonar.java.libraries" value="/opt/sonar/lib/*.jar" />
 
 
 </project>

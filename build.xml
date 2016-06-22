@@ -1,5 +1,6 @@
+
 <project name="TimesJob" default="sonar" xmlns:sonar="antlib:org.sonar.ant">
-<import file="/home/shifamariam12/Timesjob/sonar.xml" />
+<import file="/home/nareshbabubc/Timesjob_unix/sonar.xml" />
 	<path id="libpath">
 		<fileset dir="/usr/share/tomcat7/lib">
 		<include name="**/*.jar"/>
